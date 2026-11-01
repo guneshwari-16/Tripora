@@ -1,0 +1,175 @@
+/* ========================= */
+/* Footer Section */
+/* ========================= */
+
+
+.footer {
+
+    width:100%;
+
+    padding:50px 10% 20px;
+
+    color:white;
+
+    background:rgba(0,0,0,0.35);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+
+/* Footer Container */
+
+.footer-container {
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:40px;
+
+}
+
+
+
+/* Brand */
+
+.footer-brand h2 {
+
+    font-size:32px;
+
+    margin-bottom:15px;
+
+    color:#00d4ff;
+
+}
+
+
+
+.footer-brand p {
+
+    line-height:1.7;
+
+    color:#f1f1f1;
+
+}
+
+
+
+/* Footer Headings */
+
+.footer-links h3,
+.footer-contact h3 {
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* Links */
+
+.footer-links {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+
+
+.footer-links a {
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+
+
+.footer-links a:hover {
+
+    color:#00d4ff;
+
+}
+
+
+
+/* Contact */
+
+.footer-contact p {
+
+    margin-bottom:12px;
+
+    color:#f1f1f1;
+
+}
+
+
+
+/* Bottom */
+
+.footer-bottom {
+
+    margin-top:40px;
+
+    padding-top:20px;
+
+    border-top:1px solid rgba(255,255,255,0.3);
+
+    text-align:center;
+
+}
+
+
+
+.footer-bottom p {
+
+    color:#ddd;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+
+.footer {
+
+    padding:40px 5% 20px;
+
+}
+
+
+
+.footer-container {
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+
+
+.footer-links {
+
+    align-items:center;
+
+}
+
+
+
+}

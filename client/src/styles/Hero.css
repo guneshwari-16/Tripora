@@ -1,0 +1,267 @@
+/* ========================= */
+/* Hero Section */
+/* ========================= */
+
+
+.hero {
+
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+
+    padding:0 8%;
+
+    color:white;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+
+/* Hero Content */
+
+.hero-content {
+
+    max-width:650px;
+
+    animation:fadeIn 1s ease-in-out;
+
+}
+
+
+/* Heading */
+
+.hero h1 {
+
+    font-size:64px;
+
+    line-height:1.2;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+}
+
+
+.hero h1 span {
+
+    color:#00d4ff;
+
+}
+
+
+/* Description */
+
+.hero p {
+
+    font-size:22px;
+
+    line-height:1.7;
+
+    color:#f1f1f1;
+
+    margin-bottom:40px;
+
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.hero-buttons a {
+
+    text-decoration:none;
+
+}
+
+
+.primary-btn,
+.secondary-btn {
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    padding:16px 34px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+/* Primary Button */
+
+.primary-btn {
+
+    background:#00d4ff;
+
+    color:white;
+
+}
+
+
+.primary-btn:hover {
+
+    background:#0099cc;
+
+    transform:translateY(-4px);
+
+}
+
+
+/* Secondary Button */
+
+.secondary-btn {
+
+    background:transparent;
+
+    color:white;
+
+    border:2px solid white;
+
+}
+
+
+.secondary-btn:hover {
+
+    background:white;
+
+    color:black;
+
+    transform:translateY(-4px);
+
+}
+
+
+
+/* Animation */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+
+    to {
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* Tablet */
+
+@media(max-width:992px){
+
+
+.hero {
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:120px 20px 80px;
+
+}
+
+
+.hero-content {
+
+    max-width:100%;
+
+}
+
+
+.hero h1 {
+
+    font-size:45px;
+
+}
+
+
+.hero p {
+
+    font-size:18px;
+
+}
+
+
+.hero-buttons {
+
+    justify-content:center;
+
+}
+
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:576px){
+
+
+.hero h1 {
+
+    font-size:35px;
+
+}
+
+
+.hero p {
+
+    font-size:16px;
+
+}
+
+
+.primary-btn,
+.secondary-btn {
+
+    width:100%;
+
+}
+
+
+.hero-buttons {
+
+    flex-direction:column;
+
+}
+
+
+}
